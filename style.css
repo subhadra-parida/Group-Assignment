@@ -40,3 +40,56 @@ img{
     border: 2px solid black;
     margin-top: -377px;
 }
+*{
+    margin:0;
+    padding:0;
+}
+
+#box{
+    width: 1280px;
+    height: 550px;
+    border: 1px solid black;
+    background-image:linear-gradient(black,rgb(21, 20, 20)
+    ) ;
+}
+#box1{
+    width: 700px;
+    height: 550px;
+    /* border: 1px solid red; */
+}
+#remote{
+    width: 700px;
+    height: 550px;
+}
+#box2{
+    width: 580px;
+    height: 550px;
+    /* border: 1px solid blue; */
+    margin-left: 700px;
+    margin-top: -585px;
+}
+#box2_1{
+    width: 580px;
+    height: 450px;
+    /* border: 1px double green; */
+    margin-top: 70px;
+}
+#paragraph1{
+    font-size: 50px;
+    color: white;
+}
+#paragraph2{
+    font-size: 25px;
+    color: white;
+    margin-top: 50px;
+}
+#button1{
+    width: 240px;
+    height: 40px;
+    border: 1px black;
+    margin-top: 60px;
+    background-color: rgb(75, 134, 229);
+    color: white;
+    font-size: 15px;
+    border-radius: 3px;
+}
