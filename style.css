@@ -1,3 +1,208 @@
+*{
+    padding: 5px;
+}
+
+
+#container1{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    grid-template-rows: auto,auto;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(33, 28, 44);
+
+}
+
+#left-side{
+    height: 80%;
+    width: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    grid-template-rows: auto,auto,auto,auto,auto,auto;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#primeV{
+    position: relative;
+    bottom: 10px;
+    width: 100px;
+    color: aliceblue;
+    font-size: 20px;
+    /* border: 1px solid rgb(191, 186, 186); */
+}
+
+#primeIcon{
+    position: relative;
+    bottom: 10px;
+    /* height: 2px; */
+    width: 100px;
+}
+
+#home{
+    color: aliceblue;
+    cursor: pointer;
+}
+#store{
+    color: aliceblue;
+    cursor: pointer;
+}
+#channels{
+    cursor: pointer;
+    color: aliceblue;
+}
+#categories{
+    cursor: pointer;
+    color: aliceblue;
+
+}
+#my-stuff{
+    cursor: pointer;
+    color: aliceblue;
+
+}
+
+#home:hover,#store:hover,#channels:hover,#categories:hover,#my-stuff:hover{
+    color: rgb(143, 135, 135);
+}
+#right-side{
+    height: 80%;
+    width: 500px;
+    grid-template-rows: auto,auto,auto,auto,auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+}
+#try-for-free{
+    position: relative;
+    left: 140px;
+    width: 100px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(23, 106, 168);
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+#try-for-free:hover{
+    background-color: blue;
+}
+#searchButton{
+    position: relative;
+    bottom: 2px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+
+#searchButton:hover,#browserIcon:hover,#accountIcon:hover{
+    background-color: rgb(129, 126, 126);
+}
+
+#language:hover{
+    color: rgb(147, 138, 138);
+}
+#browser{
+    position: relative;
+    left: 80px;
+    border-radius: 50%;
+}
+#search{
+    position: relative;
+    left: 120px;
+    border-radius: 50%;
+}
+
+#browserIcon{
+    border-radius: 200px;
+    position: relative;
+    bottom: 6px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#language{
+    position: relative;
+    left: 40px;
+    width: 30px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#account:hover{
+    color: rgb(167, 159, 159);
+}
+#accountIcon{
+    border-radius: 200px;
+    position: relative;
+    bottom: 8px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#container2{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    grid-template-rows: auto,auto;
+    flex-direction: row;
+    background-image: linear-gradient(to right,black,rgb(17, 17, 123));
+
+}
+
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 25px;
+}
+
+#welcome-page{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(to right,black,rgb(8, 8, 60));
+    /* background-color: black; */
+}
+
+#button{
+    margin-top: 10px;
+    height: 30px;
+    width: 37%;
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(16, 103, 161);
+    border-radius: 5px;
+    cursor: pointer;
+}
+#button:hover{
+    background-color: rgb(46, 46, 134);
+}
+#welcome{
+    margin-top: 70px;
+    margin-left: 40px;
+    text-align: left;
+    align-items: left;
+}
+#movie-image{
+    position: relative;
+    bottom: 14px;
+    height: 500px;
+    width: 50%;
+}
+
+#first{
+    height: 458px;
+    width: 100%;
+}
+
 #mainbox{
     height: 100vh;
     width: 1250px;
@@ -34,9 +239,9 @@ p{
     position: relative;
     left: 160px;
 } 
-img{
+/* img{
     height: 610px;
     width: 750px;
     border: 2px solid black;
     margin-top: -377px;
-}
+} */
